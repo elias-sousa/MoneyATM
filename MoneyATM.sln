@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Apresentação", "0 - Apresentação", "{58157740-83F0-43ED-A257-9305BEAB57F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Aplicação", "1 - Aplicação", "{DBBDA01A-CAAF-4119-8D8D-5526F4E22733}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{19BAAF0C-1052-4AEC-A23E-9ED7574D641E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Test", "3 - Test", "{4144293B-6A3D-4493-9016-6AB3F6052896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyATM.Domain.Core", "MoneyATM.Domain.Core\MoneyATM.Domain.Core.csproj", "{3948AEC7-424D-4BD6-BF98-ACC91A0BDBA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3948AEC7-424D-4BD6-BF98-ACC91A0BDBA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3948AEC7-424D-4BD6-BF98-ACC91A0BDBA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3948AEC7-424D-4BD6-BF98-ACC91A0BDBA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3948AEC7-424D-4BD6-BF98-ACC91A0BDBA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3948AEC7-424D-4BD6-BF98-ACC91A0BDBA8} = {19BAAF0C-1052-4AEC-A23E-9ED7574D641E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0176CB9-18CF-4D70-8FC6-F6BE22EC9B3F}
+	EndGlobalSection
+EndGlobal
