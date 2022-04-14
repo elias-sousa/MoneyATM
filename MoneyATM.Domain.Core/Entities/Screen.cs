@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MoneyATM.Domain.Core.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +10,7 @@ namespace MoneyATM.Domain.Core.Entities
     /// <summary>
     /// Representa a tela do caixa eletrônico
     /// </summary>
-    public class Screen
+    public class Screen : IScreen
     {
         public void DisplayMessage(string message)
         {

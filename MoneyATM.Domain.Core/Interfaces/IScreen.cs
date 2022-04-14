@@ -8,6 +8,8 @@ namespace MoneyATM.Domain.Core.Interfaces
 {
     public interface IScreen
     {
-
+        void DisplayMessage(string message);
+        void DisplayMessageLine(string message);
+        void DisplayDollarAmount(decimal amount);
     }
 }

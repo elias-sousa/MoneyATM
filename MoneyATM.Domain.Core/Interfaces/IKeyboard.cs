@@ -8,6 +8,6 @@ namespace MoneyATM.Domain.Core.Interfaces
 {
     public interface IKeyboard
     {
-
+        int GetInput();
     }
 }
