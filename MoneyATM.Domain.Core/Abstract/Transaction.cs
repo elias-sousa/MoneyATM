@@ -12,41 +12,18 @@ namespace MoneyATM.Domain.Core.Abstract
     /// </summary>
     public abstract class Transaction
     {
-        private int _accountNumber; 
-        private Screen _userScreen;
-        private BankDatabase _database; 
-                                       
+        protected int AccountNumber { get; set; }
+        protected Screen UserScreen { get; set; }
+        protected BankDatabase Database { get; set; }
+
         public Transaction(int userAccount, Screen theScreen,
            BankDatabase theDatabase)
         {
-            _accountNumber = userAccount;
-            _userScreen = theScreen;
-            _database = theDatabase;
+            AccountNumber = userAccount;
+            UserScreen = theScreen;
+            Database = theDatabase;
         } 
-          
-        public int AccountNumber
-        {
-            get
-            {
-                return _accountNumber;
-            } 
-        } 
-        public Screen UserScreen
-        {
-            get
-            {
-                return _userScreen;
-            } 
-        } 
-
-        public BankDatabase Database
-        {
-            get
-            {
-                return _database;
-            } 
-        } 
-          
+                    
         public abstract void Execute();
     }
 }
